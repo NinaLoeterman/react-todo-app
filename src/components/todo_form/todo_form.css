@@ -1,0 +1,40 @@
+.title {
+  margin-bottom: 0px;
+}
+
+.input-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.main-input {
+  width: 90%;
+}
+
+.add-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.refresh {
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s ease-in-out;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.title {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 3rem;
+  font-weight: 500;
+}

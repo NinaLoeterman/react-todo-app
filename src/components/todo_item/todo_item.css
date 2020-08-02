@@ -1,0 +1,28 @@
+.dark-input {
+  background-color: #3b4252;
+  height: 19px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.blue_bottom_border {
+  border-bottom: #add7ff 1px solid;
+}
+
+.star {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.blue {
+  color: #add7ff;
+}
+
+.icon {
+  width: 15px;
+}

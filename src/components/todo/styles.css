@@ -1,0 +1,98 @@
+body {
+  background-color: #2e3440;
+  font-family: "Lato", sans-serif;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  font-size: 16px;
+  border-bottom: #4c566a 1px solid;
+}
+
+input,
+button {
+  background-color: #4c566a;
+  -webkit-appearance: none;
+  border: none;
+  color: white;
+  height: 30px;
+  padding: 0 10px;
+}
+
+button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+input {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 16px;
+}
+
+h2 {
+  line-height: 1;
+  position: static;
+  margin: 0;
+}
+
+.app-wrapper {
+  background-color: #3b4252;
+  width: 20%;
+  height: 80vh;
+  padding: 30px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.doneList {
+  height: 40%;
+}
+
+.todoList {
+  height: 60%;
+}
+
+.doneUl {
+  height: 60%;
+  overflow: auto;
+}
+
+.todoUl {
+  height: 50%;
+  overflow: auto;
+}
+
+.inactive {
+  color: #4c566a;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: #6f7787;
+}
+
+::-moz-placeholder {
+  color: #6f7787;
+}
