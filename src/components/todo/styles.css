@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 body {
   background-color: #2e3440;
   font-family: "Lato", sans-serif;
@@ -53,13 +58,54 @@ h2 {
 
 .app-wrapper {
   background-color: #3b4252;
-  width: 20%;
-  height: 80vh;
-  padding: 30px;
-  border-radius: 5%;
-  display: flex;
+  border-radius: 12px;
   flex-direction: column;
-  justify-content: space-between;
+}
+
+@media (max-width: 450px) {
+  .app-wrapper {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 7px;
+    padding: 5%;
+  }
+  
+  .icon-wrapper {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 700px) {
+  .app-wrapper {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 7px;
+    padding: 15%;
+  }
+  
+  .icon-wrapper {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1100px) {
+  .app-wrapper {
+    width: 40vw;
+    height: 80vh;
+    border-radius: 7px;
+    padding: 5%;
+  }
+  
+  .icon-wrapper {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
 
 .doneList {

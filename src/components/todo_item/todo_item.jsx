@@ -42,7 +42,7 @@ const ToDoItem = ({ todo, toggle, submit, change, escape, favorite, edit, delete
       <div className="icon-wrapper">
         <IoMdCreate className={isEditing ? 'icon blue' : 'icon'} onClick={() => edit(todo)} />
         <IoMdStar
-          className={isFavorite ? "star blue" : "star"}
+          className={isFavorite ? "blue icon" : "icon"}
           onClick={() => favorite(todo)}
         />
         <IoMdTrash className="icon" onClick={() => deleteItem(todo)} />

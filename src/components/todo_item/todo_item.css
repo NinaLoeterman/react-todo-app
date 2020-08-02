@@ -8,15 +8,12 @@
 .icon-wrapper {
   display: flex;
   align-items: center;
+  width: 60px;
+  justify-content: space-between;
 }
 
 .blue_bottom_border {
   border-bottom: #add7ff 1px solid;
-}
-
-.star {
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
 .blue {

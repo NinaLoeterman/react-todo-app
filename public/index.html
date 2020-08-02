@@ -33,49 +33,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
-
     <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyBRafKmpUgdVl8fWu00hnPqGmfdWFOpPYk",
-        authDomain: "react-todo-list-a186f.firebaseapp.com",
-        databaseURL: "https://react-todo-list-a186f.firebaseio.com",
-        projectId: "react-todo-list-a186f",
-        storageBucket: "react-todo-list-a186f.appspot.com",
-        messagingSenderId: "435770370112",
-        appId: "1:435770370112:web:ce32737f1917be3db957a5",
-        measurementId: "G-Y67K8TP9ME",
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
-      var ref = firebase.database().ref();
-      ref.on("value", function (snapshot) {
-        output.innerHTML = JSON.stringify(snapshot.val(), null, 2);
-      });
-      var ref = firebase.database().ref();
-
-ref.on("value", function(snapshot) {
-   console.log(snapshot.val());
-}, function (error) {
-   console.log("Error: " + error.code);
-});
     </script>
   </body>
 </html>
